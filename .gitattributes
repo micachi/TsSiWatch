@@ -1,0 +1,6 @@
+# 既定はテキスト扱い
+* text=auto
+
+# Shift-JIS の bat は改行も含めてそのまま保存する
+# (LF に変換されると cmd.exe が行を誤解析して動かなくなる)
+*.bat -text

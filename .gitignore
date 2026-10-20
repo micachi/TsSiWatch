@@ -1,0 +1,13 @@
+# 実行時に生成されるもの
+data/
+data_test/
+config.json
+config.test.json
+*.log
+
+# バックアップ・ビルド成果物
+*.bak
+*.bak-*
+*.pdb
+*.exe
+*.zip
